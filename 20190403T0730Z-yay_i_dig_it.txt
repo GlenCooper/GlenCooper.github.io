@@ -1,0 +1,19 @@
+
+; <<>> DiG 9.11.3-1ubuntu1.5-Ubuntu <<>> trust.glencooper.com +nostats +nocmd
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19737
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;trust.glencooper.com.		IN	A
+
+;; ANSWER SECTION:
+trust.glencooper.com.	6859	IN	CNAME	glencooper.github.io.
+glencooper.github.io.	3258	IN	A	185.199.109.153
+glencooper.github.io.	3258	IN	A	185.199.111.153
+glencooper.github.io.	3258	IN	A	185.199.108.153
+glencooper.github.io.	3258	IN	A	185.199.110.153
+
