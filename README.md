@@ -1,3 +1,3 @@
 # GlenCooper.github.io
 
-Hey
+I am attempting to build trust by building this repository on github pages.
