@@ -178,5 +178,7 @@
 20201212T041032Z: Bought a new laptop since the last one I had was starting to show signs of old age.  Started migrating and within a few hours of starting, the ssd in the old laptop completely died to the point that it won't even boot anymore.  Thankfully I have a recent backup of the most vital file, a KeepassXC .kbdx file, that I store my various passwords and private keys in.  I'm sure I lost some stuff in the crash, things like scripts that I started trying to put together, but nothing that can't be replaced/rewritten.  My English teacher in high school always said, "The best form of writing is rewriting".  I suppose the same can be said for code as well.<br>
 20201216T035852Z: I'm pleasantly surprised to find that my name was mentioned in <a href="https://archive.vn/0qZn8#selection-1919.1-1919.12">the v0.12.0-beta.rc1 release of lnd</a><br>
 20210125T071502Z: I created a <a href="https://keyoxide.org/4EEB0DBEE81D6E5189724EE3042F9E7456930D02">keyoxide</a> account within the last 24 hours.<br>
+20210128T002529Z: The original bitcoin whitepaper is forever embedded in the Bitcoin (BTC) blockchain.  To caccess it:<br>
+<code>bitcoin-cli getblock 00000000000000ecbbff6bafb7efa2f7df05b227d5c73dca8f2635af32a2e949 0 | tail -c+92167 | for ((o=0;o<946;++o)) ; do read -rN420 x ; echo -n ${x::130}${x:132:130}${x:264:130} ; done | xxd -r -p | tail -c+9 | head -c184292 > bitcoin.pdf</code> (thanks <a href="https://archive.vn/px9n5#selection-3097.0-3109.0">Jameson Lopp</a>!<br>
   </body>
 </html>
